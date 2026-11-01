@@ -174,7 +174,6 @@ https://larome-cafe.onrender.com/api/docs
 | GET    | `/api/orders`     | Retrieve orders       |
 | POST   | `/api/auth/login` | Admin login           |
 
-Administrative endpoints require authentication where configured.
 
 For request parameters, validation rules, and response examples, refer to the Swagger documentation.
 
@@ -196,7 +195,7 @@ For request parameters, validation rules, and response examples, refer to the Sw
 | -------------- | -------------------- |
 | `VITE_API_URL` | Backend API base URL |
 
-**Security:** Never commit `.env` files, database credentials, or JWT secrets to GitHub. Only commit `.env.example` files containing placeholder values.
+
 
 ## Deployment
 
@@ -206,7 +205,7 @@ For request parameters, validation rules, and response examples, refer to the Sw
 | Backend   | Render        |
 | Database  | MongoDB Atlas |
 
-The deployed application uses environment variables configured through the hosting platforms.
+
 
 ## Screenshots
 
